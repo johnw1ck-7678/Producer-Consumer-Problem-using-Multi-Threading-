@@ -19,9 +19,9 @@ The main objective is to ensure safe and efficient communication between produce
 **#Applications**
 
 The Producer–Consumer pattern is commonly used in:
--Task scheduling systems.
--Message queues and event-driven architectures.
--Logging and streaming pipelines.
+-Task scheduling systems.<br>
+-Message queues and event-driven architectures.<br>
+-Logging and streaming pipelines.<br>
 -Backend request processing and job workers.
 
 
