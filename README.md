@@ -23,3 +23,9 @@ The Producer–Consumer pattern is commonly used in:
 -Message queues and event-driven architectures.
 -Logging and streaming pipelines.
 -Backend request processing and job workers.
+
+
+
+
+
+
