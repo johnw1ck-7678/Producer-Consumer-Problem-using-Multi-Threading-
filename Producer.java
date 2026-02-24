@@ -1,0 +1,22 @@
+public class Producer extends Thread {
+
+    private SharedBuffer buffer;
+
+    public Producer(SharedBuffer buffer) {
+        this.buffer = buffer;
+    }
+
+    @Override
+    public void run() {
+        int value = 0;
+
+        try {
+            while (true) {
+                buffer.produce(value++);
+                Thread.sleep(1000);
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
